@@ -1,0 +1,787 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Nanum+Gothic:wght@400;800&family=Nunito:wght@300;400;700&family=Roboto:wght@100&display=swap');
+body{
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar {
+	background-color: #ffff !important;
+}
+.navbar-nav .nav-item a{
+	margin-right: 20px !important;
+	color: #797979 !important;
+	font-size: 20px;
+	font-weight: 700;
+
+}
+.nav-item a:hover{
+color: orange !important;
+}
+.btn{
+	width: 140px;
+    background-color: #00adfc;
+	border-radius: 1px;
+	color: #ffff;
+}
+.nav-link :last-child{
+	margin-left:20px;
+}
+
+.img-content {
+	margin-top: 180px;
+}
+.content{
+	background-color: #89c7ee;
+}
+.img-hosting{
+	margin-top: 20px;
+}
+
+.img-content h5{
+	color: #ffff;
+	margin-left: 200px;
+}
+.img-content span{
+	font-weight: 600;
+	font-size: 20px;
+}
+.img-content h2{
+	color: #ffff;
+	font-weight: 600;
+}
+.img-content p{
+	font-size: 15px;
+	color: #fff;
+}
+.img-btn {
+	margin-left: 120px;
+	display:inline-flex;
+}
+.img-btn button{
+	margin-left: 10px;
+}
+.readmore button{
+	background-color: #ffff;
+	border-radius: 5px;
+}
+
+.readmore button a{
+	text-decoration:none;
+	color: black;
+	font-weight: 600;
+}
+.start button {
+background-color: #01c853;
+border-radius: 5px;
+border: none;
+}
+.start button a {
+	text-decoration: none;
+	color:#fff;
+	font-weight: 600;
+
+}
+
+.start button a:hover{
+	text-decoration: none;
+}
+
+.domain{
+	position:relative;
+	background-color:#333333;
+}
+.domain h1{
+	font-size:20px;
+	color: #fff;
+}
+.domain h4{
+	font-size: 10px;
+}
+.search-form button {
+margin-left:2px;
+
+}
+.search-form button a{
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	font-size: 10px;
+}
+
+.search-form input{
+	border-radius:1px;
+	background-color:#333333;
+	border: 1px solid #fff;
+}
+.search-form form button{
+	background-color:#333333;
+	border: 1px solid #fff;
+	font-size: 10px;
+}
+.search-form h4{
+	font-weight: 600;
+	color:#8c8c8c;
+	padding-left:20rem;
+}
+.heading-line{
+	content: "";
+	border-radius:6px;
+	width: 8rem;
+	height:0.2rem;
+	display:block;
+	background-color:#00acfc;
+	margin: 0 auto;
+}
+.service h1{
+	font-weight: 700;
+	color: #555555;
+}
+.service{
+}
+.card img{
+	width:50px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+.card{
+	width:18rem;
+	flex-basis:50%;
+}
+.red{
+	border-left: 2px solid red;
+}
+.orange{
+	border-left: 2px solid #fdb902 ; 
+}
+.light-blue{
+	border-left: 2px solid #00acfc;
+}
+.orange-dark{
+	border-left: 2px solid #ff901e;
+}
+.testimonial-card {
+      text-align: center;
+    }
+
+    .testimonial-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: auto;
+    }
+
+.more-details button{
+	border-radius: 5px;
+}
+ .more-details button a{
+ 	text-decoration: none;
+ 	font-size: 10px;
+ 	color: #ffff;
+ 	font-weight: 600;
+ }
+
+ .red-dark{
+ 	background-color: #ff0000;
+ }
+ .yellow{
+ background-color: #ffcd1e;
+ }
+.or{
+background-color: #ff812d;
+}
+
+.package-card hr{
+	padding:px;
+}
+
+.blue{
+color:#00acfc ; 
+}
+
+.ov{
+color: 	#ff901e;
+}
+
+
+.package-card img{
+	width: 40px;
+}
+
+
+
+
+ .package-price span{
+ 	font-size: 18px;
+ }
+  .package-price   h1{
+
+  }
+
+  .year span{
+ 	font-size:10px;
+ }
+ 
+
+.table-button{
+	justify-content:center;
+	margin-left:325px;
+
+}
+.table-button button {
+	font-size:10px;
+	margin-right:60px;
+	width:auto;
+}
+
+.table-price span{
+ 	font-size: 15px;
+ }
+
+  .table-year span{
+ 	font-size:6px;
+ }
+.table-button button a{
+	text-decoration: none;
+	color: white;
+}
+
+.table-button button:nth-child(3){
+	color: blue;
+}
+
+
+.package-price{
+	justify-content: center;
+}
+
+.data-center{
+	background-color: #00acfc;
+	padding:5px;
+}
+.data-img img{
+	width: 310px;
+	margin-left: 50px;
+}
+.data-content{
+	margin-left: 20px;
+}
+
+.data-content span i{
+	margin-right: 10px;
+	margin-bottom:10px;
+	font-size: 10px;
+}
+.data-content span{
+	font-size: 10px;
+}
+
+
+.data-content p {
+	font-size: 10px;
+}
+
+.data-button a{
+	text-decoration: none;
+	color: #ffff;
+}
+
+.data-button  button{
+	background-color:#00c853;
+}
+ .custom-card {
+      position: relative;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .custom-card:hover{
+      background-color: black;
+    }
+
+    .center-button{
+    }
+        .center-button:hover{
+      background-color: black;
+    }
+    .center-button:hover{
+    	visibility:visible;
+    }
+
+    .custom-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .card-overlay {
+      position:absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: 0.3s;
+    }
+
+    .card-overlay:hover{
+      opacity: 1;
+    }
+
+    .center-button {
+    	padding-top: 0px;
+      text-align: center;
+      width: auto;
+      padding-bottom:50px;
+      border-radius: 5px;
+    }
+ .center-button a{
+ 	color: #fff;
+ 	text-decoration: none;
+ }
+ .date-box{
+ 	width: 50px;
+ 	height: 50px;
+ 	background-color: #ffff;
+
+ }
+ .date-box span{
+ color: #00c853;
+ font-weight: 600;
+ }
+
+
+
+footer{
+	background-color: #333333;
+}
+
+.footer-section-1 img{
+	width: 50px;
+	margin:0 auto; 
+	padding-top: 40px;
+}
+
+.box{
+	width: 300px;
+	height:50px;
+	background-color: #2e2e2f;
+      margin: 0 auto;
+}
+
+.facebook .box:hover{
+background-color:#3b5998;
+}
+
+
+.twitter .box:hover{
+background-color:#1DA1F2;
+}
+
+.google-plus .box:hover{
+background-color:#dd4b39;
+}
+.skype .box:hover{
+background-color: #009EDC;
+}
+
+.footer-secetion .box{
+	justify-content: center;
+}
+
+
+.green{
+	color: #0bb14d;
+}
+
+
+.service-card {
+	padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:999px) {
+.img-content h5{
+	font-size: 15px;
+	margin-right: 10px;
+}
+.img-btn {
+	margin-left:20px;
+	display:inline-flex;
+}
+.img-content h2{
+	font-size: 20px;
+}
+.search-form button a{
+	font-size:10px;
+	
+}
+.search-form h4{
+	font-weight: 600;
+	color:#8c8c8c;
+	padding-left:5rem;
+}
+.card{
+	width:10rem;
+	height: 10rem;
+}
+.card h5{
+	font-size: 10px;
+}
+.card p{
+	font-size: 10px;
+
+}
+.card img{
+	width:20px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+	
+	.package-card{
+		padding:30px;
+	}
+	.package-card .card{
+	width: 11rem;
+	height: 23rem;
+
+}
+.package-card .card p{
+font-size:8px;
+}
+
+.more-details button{
+	border-radius: 5px;
+	width:8rem;
+	font-size: 10px;
+
+}
+.box{
+	width:150px;
+	height:50px;
+	background-color: #2e2e2f;
+      margin: 0 auto;
+}
+
+.table tbody td{
+ padding-right:50px;
+}
+
+
+.table-button button {
+	font-size:10px;
+	margin-right:25px;
+	width:120px;
+}
+.table-button{
+	margin-left:410px;
+
+}
+    .custom-card {
+    }
+
+.new-card , .card{
+	width: 220px;
+	height: 300px;
+}
+
+.service-card .card{
+	width: 170px;
+	height: 180px;
+}
+}
+
+
+
+@media 	(max-width:768px){
+	.img-content h5{
+	color: #ffff;
+	margin-left: 10px;
+
+	.img-btn {
+	margin-left:20px;
+	display:inline-flex;
+}
+.table-button{
+	justify-content: center;
+	margin-left:00px;
+
+}
+
+}
+.img-content h2{
+	font-size: 20px;
+}
+
+.img-btn {
+	margin-left: 10px;
+	display:inline-flex;
+}
+
+.search-form h4{
+	font-weight: 600;
+	color:#8c8c8c;
+	padding-left:10rem;
+}
+
+
+.img-content {
+	margin-top: 150px;
+}
+
+.img-content p{
+	font-size:10px;
+	color: #fff;
+}
+
+.search-form button a{
+	font-size:10px;
+}
+.search-button {
+	padding-left:40px;
+}
+
+.card{
+	width:10rem;
+	height: 10rem;
+}
+
+.card img{
+	width:20px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.card h5{
+	font-size: 10px;
+}
+.card p{
+	font-size: 10px;
+}
+
+.package-card .card{
+	width: 11rem;
+	height: 23rem;
+
+}
+.package-card .card p{
+ font-size: 7px;
+}
+.more-details button{
+	border-radius: 5px;
+	width:8rem;
+	font-size: 10px;
+
+}
+ .more-details button a{
+ 	text-decoration: none;
+ 	font-size: 8px;
+ 	color: #ffff;
+ 	font-weight: 600;
+ }
+
+ .box{
+	width:150px;
+	height:50px;
+	background-color: #2e2e2f;
+      margin: 0 auto;
+}
+
+
+.table-button button {
+	font-size:10px;
+	margin-right:25px;
+	width:120px;
+}
+
+.table-button{
+	margin-left:410px;
+
+}
+.table-button h1{
+	justify-content: center;
+}
+
+.service-card .card{
+	width: 160px;
+	height: 170px;
+}
+.table tbody td{
+ padding-right:50px;
+}
+
+
+
+}
+
+@media (max-width:540px) {
+
+	.img-contant h5{
+		font-size:40px;
+	}
+
+	.package-card .card{
+	width: 18rem;
+	height: 25rem;
+	margin-bottom: 10px;
+	margin:0 auto;
+  }
+.package-card .card p{
+	font-size:12px;
+}
+.package-card .card h5{
+	font-size: 12px;
+}
+
+.card{
+	width:20rem;
+	height:15rem;
+	margin:0 auto;
+}
+.card h5{
+	font-size: 20px;
+}
+.card p{
+	font-size:15px;
+}
+.service-card img{
+	width: 50px;
+}
+
+.service-card .card{
+	width: 300px;
+	height: 250px;
+}
+.table-button button{
+	font-size: 10px;
+	margin-right:20px;
+	width:auto;
+}
+.package-card img{
+	width: 30px;
+}
+.center-button{
+	margin-bottom: 50px;
+}
+
+  .table-button{
+  	justify-content: center;
+	margin-left:400px;
+
+}
+.table-button button{
+	font-size: 10px;
+	margin-right:30px;
+	width:110px;
+}
+.new-card , .card{
+	width: 300px;
+	height: 300px;
+}
+.table-button h1{
+	justify-content: center;
+}
+}
+@media 	(max-width:480px){
+.img-content {
+	margin-top: 40px;
+}
+
+.service p{
+	font-size: 12px;
+}
+
+.img-btn {
+	margin-left: 10px;
+	display:inline-flex;
+	margin-bottom: 20px;
+}
+
+.img-content p{
+	font-size:15px;
+	color: #fff;
+	margin-bottom:10px;
+}
+
+
+.search-form button a{
+	font-size:10px;
+	
+}
+.card{
+	width:18rem;
+}
+
+.card img{
+	width:30px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+.package-card .card{
+	width: 15rem;
+	height: 25rem;
+	margin-bottom: 10px;
+}
+.package-card .card p{
+	font-size:12px;
+}
+
+.more-details button{
+	border-radius: 5px;
+}
+
+
+.card h5{
+	font-size: 20px;
+}
+.card p{
+	font-size:15px;
+}
+.table-price span{
+ 	font-size: 10px;
+ }
+ .table-price h6{
+ 	font-size: 10px;
+ 	margin: 0 auto;
+ }
+  .table-button button a{
+  	font-size:10px;
+  }
+
+  .table-button{
+  	justify-content: center;
+	margin-left:430px;
+
+}
+.table-button button{
+	font-size: 10px;
+	margin-right:30px;
+	width: 110px;
+}
+.table-button h1{
+	justify-content: center;
+}
+.new-card .card{
+	width: 300px;
+	height: 300px;
+}
+.service-card .card{
+	width: 300px;
+	height: 220px;
+}
+}
